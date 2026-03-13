@@ -1,0 +1,129 @@
+.docs-footer {
+  padding: 4rem 2rem;
+  border-top: 1px solid #30363d;
+  background-color: #0d1117;
+  color: #8b949e;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-section h3 {
+  color: #f0f6fc;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.footer-section h4 {
+  color: #f0f6fc;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.feedback-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.btn-feedback {
+  background-color: #21262d;
+  border: 1px solid #30363d;
+  color: #c9d1d9;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.btn-feedback:hover {
+  background-color: #30363d;
+  border-color: #8b949e;
+}
+
+.btn-contribution {
+  background-color: #21262d;
+  border: 1px solid #30363d;
+  color: #c9d1d9;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  width: fit-content;
+  margin-top: 1rem;
+}
+
+.btn-contribution:hover {
+  background-color: #30363d;
+}
+
+.footer-link {
+  color: #58a6ff;
+  text-decoration: none;
+  font-size: 0.875rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-link-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-legal {
+  border-top: 1px solid #30363d;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.75rem;
+}
+
+.legal-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.legal-links a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.legal-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-section p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}

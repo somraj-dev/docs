@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+build
+.DS_Store
+*.log
+dev_log*.txt
+build_log.txt
+.env*

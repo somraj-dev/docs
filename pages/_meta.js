@@ -1,10 +1,7 @@
 export default {
-  "index": "Welcome",
-  "getting-started": "Getting Started",
-  "ide": "TrackCodex IDE",
-  "repositories": "Repositories",
+  "index": "Overview",
+  "guides": "Guides",
+  "architecture": "Architecture",
   "api-reference": "API Reference",
-  "account": "Account Management",
-  "security": "Security",
-  "policies": "Policies"
+  "governance": "Governance"
 }

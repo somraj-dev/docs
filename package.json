@@ -8,7 +8,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@next/swc-win32-x64-msvc": "16.1.6",
     "next": "14",
     "nextra": "^3.2.0",
     "nextra-theme-docs": "^3.2.0",

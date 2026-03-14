@@ -30,13 +30,15 @@ const Footer = () => {
         </div>
 
         <div className="footer-section">
-          <h4>Still need help?</h4>
-          <a href="https://community.trackcodex.com" target="_blank" rel="noopener noreferrer" className="footer-link footer-link-with-icon">
-             Ask the TrackCodex community
-          </a>
-          <a href="https://support.trackcodex.com" target="_blank" rel="noopener noreferrer" className="footer-link footer-link-with-icon">
-             Contact support
-          </a>
+          <h4>Need help?</h4>
+          <div className="footer-help-links">
+            <a href="https://support.trackcodex.com" className="footer-link footer-link-with-icon">
+               <span role="img" aria-label="support">🎧</span> Contact Support
+            </a>
+            <a href="https://community.trackcodex.com" className="footer-link footer-link-with-icon">
+               <span role="img" aria-label="community">💬</span> Ask the Community
+            </a>
+          </div>
         </div>
       </div>
 
@@ -45,10 +47,18 @@ const Footer = () => {
         <div className="legal-links">
           <a href="/governance/policies/terms">Terms</a>
           <a href="/governance/policies/privacy">Privacy</a>
-          <a href="https://status.trackcodex.com" target="_blank" rel="noopener noreferrer">Status</a>
+          <a href="/governance/security">Security</a>
+          <a href="https://status.trackcodex.com">Status</a>
           <a href="/governance/policies/pricing">Pricing</a>
+          <button 
+            type="button"
+            className="footer-link-btn"
+            onClick={() => window.dispatchEvent(new CustomEvent('open-cookie-settings'))}
+          >
+            Manage cookies
+          </button>
           <a href="/governance/policies/services">Expert services</a>
-          <a href="/blog" target="_blank" rel="noopener noreferrer">Blog</a>
+          <a href="/blog">Blog</a>
         </div>
       </div>
     </footer>
